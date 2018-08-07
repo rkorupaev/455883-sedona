@@ -1,7 +1,7 @@
-# Личный проект «Седона»
+﻿# Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/22/user/455883).
-* Наставник: `Неизвестно`.
+* Студент: [Korupaev Roman](https://up.htmlacademy.ru/htmlcss/22/user/455883).
+* Наставник: Pecherin Maksim.
 
 ---
 
