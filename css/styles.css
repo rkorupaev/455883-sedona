@@ -23,3 +23,20 @@ a {
 	font-weight: 700;
 	color: #000000;	
 }
+
+.main-header li {
+	list-style: none;
+}
+
+.main-header a {
+	color: #000000;	
+}
+
+.main-header a:hover,
+.main-header a:focus {
+	color: #80b3d2;
+}
+
+.main-header a:active {
+	color: rgba( 0, 0, 0, 0.3);
+}
