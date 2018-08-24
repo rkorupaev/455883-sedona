@@ -114,3 +114,8 @@ a {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+
+.search-form label {
+	line-height: 26px;
+	font-weight: 700;
+}
