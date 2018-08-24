@@ -161,7 +161,16 @@ a {
 .social-button {
 	background-color: #81b3d2;
 	color: #ffffff;
+}
 
+.social-button:hover {
+	background-color: #669ec0;
+	color: #ffffff;
+}
+
+.social-button:active {
+	background-color: #5496bd;
+	color: rgba( 255, 255, 255, 0.3);
 }
 
 .footer li {
@@ -172,4 +181,13 @@ a {
 	line-height: 26px; 
 	color: #000000;
 	vertical-align: middle;
+	text-align: right;
+}
+
+.footer-copyright:hover {
+	
+}
+
+.footer-copyright {
+	
 }
