@@ -40,3 +40,16 @@ a {
 .main-header a:active {
 	color: rgba( 0, 0, 0, 0.3);
 }
+
+.welcome-block{
+	background-color: #848288;
+	background-image: url("img/background-photo.jpg");
+	background-position: 0,0;
+	background-repeat: no-repeat;
+}
+
+.features ul {
+	list-style: none;
+}
+
+
