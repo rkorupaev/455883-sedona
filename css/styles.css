@@ -48,8 +48,50 @@ a {
 	background-repeat: no-repeat;
 }
 
+.features,
+.search-button {
+	background-color: #ffffff;
+
+	color: #000000;
+}
+
 .features ul {
 	list-style: none;
 }
 
+.features h2 {
+	font-size: 21px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.features h2+p {
+	line-height: 26px;
+	text-align: center;
+	color: #333333;
+	font-weight: 700;
+}
+
+.features h3 {
+	font-size: 21px;
+	text-align: center;
+}
+
+.features span,
+.features p {
+	text-align: center;
+}
+
+.feature1,
+.feature2 {
+	background-color: #81b3d2;
+
+	color: #ffffff;
+}
+
+.feature3-4-5 {
+	background-color: #eeeeee;
+
+	color: #000000;
+}
 
