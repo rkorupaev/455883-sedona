@@ -120,8 +120,27 @@ a {
 	border: none;
 }
 
+.button:hover {
+	background-color: #604e43;
+}
+
+.button:active {
+	background-color: #503e33;
+	color: rgba( 255, 255, 255, 0.3);
+
+}
+
 .button-submit {
 	background-color: #81b3d2;
+}
+
+.button-submit:hover {
+	background-color: #669ec0;
+}
+
+.button-submit:active {
+	background-color: #5496bd;
+	color: rgba( 255, 255, 255, 0.3);
 }
 
 .search-form label {
