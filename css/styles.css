@@ -43,7 +43,7 @@ a {
 
 .welcome-block{
 	background-color: #848288;
-	background-image: url("img/background-photo.jpg");
+	background-image:  url("../img/background-photo.jpg");
 	background-position: 0,0;
 	background-repeat: no-repeat;
 }
@@ -65,11 +65,10 @@ a {
 	text-align: center;
 }
 
-.features h2+p {
+.features h2 + p {
 	line-height: 26px;
 	text-align: center;
 	color: #333333;
-	font-weight: 700;
 }
 
 .features h3 {
@@ -80,16 +79,24 @@ a {
 .features span,
 .features p {
 	text-align: center;
+	color: #333333;
 }
 
-.feature1,
-.feature2 {
+.feature-true-town,
+.feature-diablo-bridge {
 	background-color: #81b3d2;
 
 	color: #ffffff;
 }
 
-.feature3-4-5 {
+.feature-true-town p,
+.feature-diablo-bridge p,
+.feature-true-town span,
+.feature-diablo-bridge span {
+	color: #ffffff;
+}
+
+.feature-brown-block {
 	background-color: #eeeeee;
 
 	color: #000000;
@@ -104,6 +111,8 @@ a {
 .search-button p {
 	line-height: 24px;
 	text-align: center;
+
+	color: #333333;
 
 }
 
@@ -179,15 +188,14 @@ a {
 
 .footer-copyright {
 	line-height: 26px; 
-	color: #000000;
 	vertical-align: middle;
 	text-align: right;
 }
 
-.footer-copyright:hover {
-	
+.footer-copyright a {
+	color: #000000;
 }
 
-.footer-copyright {
-	
+.footer-copyright img {
+	fill: #;
 }
