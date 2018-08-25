@@ -210,3 +210,24 @@ a {
 .footer {
 	background-color: #ffffff;
 }
+
+.filters {
+	background-color: #465159;
+	background-image: url("../img/filter background.png");
+	background-repeat: no-repeat;
+}
+
+.filters fieldset {
+	border: none;
+}
+
+.filters legend {
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.filters label,
+.range-input div {
+	color: #ffffff;
+}
