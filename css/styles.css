@@ -1,233 +1,269 @@
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 
-	font-family: "PT Sans", Arial, sans-serif;
-	font-size: 14px;
-	line-height: 21px;
-	font-weight: 400;
-	color: #000000;
-	text-transform: uppercase;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
 
-	background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .main-header {
-	background-color: #ffffff;
+  background-color: #ffffff;
 
-	line-height: 26px;
-	font-weight: 700;
-	color: #000000;	
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
 }
 
 .main-header li {
-	list-style: none;
+  list-style: none;
 }
 
 .main-header a {
-	color: #000000;	
+  color: #000000;
 }
 
 .main-header a:hover,
 .main-header a:focus {
-	color: #80b3d2;
+  color: #80b3d2;
 }
 
 .main-header a:active {
-	color: rgba( 0, 0, 0, 0.3);
+  color: rgba( 0, 0, 0, 0.3);
 }
 
-.welcome-block{
-	background-color: #848288;
-	background-image:  url("../img/background-photo.jpg");
-	background-position: 0,0;
-	background-repeat: no-repeat;
+.welcome-block {
+  background-color: #848288;
+  background-image: url("../img/background-photo.jpg");
+  background-position: 0, 0;
+  background-repeat: no-repeat;
 }
 
 .features,
 .search-button {
-	background-color: #ffffff;
+  background-color: #ffffff;
 
-	color: #000000;
+  color: #000000;
 }
 
 .features ul {
-	list-style: none;
+  list-style: none;
 }
 
 .features h2 {
-	font-size: 21px;
-	line-height: 26px;
-	text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
 }
 
-.features h2 + p {
-	line-height: 26px;
-	text-align: center;
-	color: #333333;
+.features h2+p {
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
 }
 
 .features h3 {
-	font-size: 21px;
-	text-align: center;
+  font-size: 21px;
+  text-align: center;
 }
 
 .features span,
 .features p {
-	text-align: center;
-	color: #333333;
+  text-align: center;
+  color: #333333;
 }
 
 .feature-true-town,
 .feature-diablo-bridge {
-	background-color: #81b3d2;
+  background-color: #81b3d2;
 
-	color: #ffffff;
+  color: #ffffff;
 }
 
 .feature-true-town p,
 .feature-diablo-bridge p,
 .feature-true-town span,
 .feature-diablo-bridge span {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 .feature-brown-block {
-	background-color: #eeeeee;
+  background-color: #eeeeee;
 
-	color: #000000;
+  color: #000000;
 }
 
 .search-button b {
-	font-size: 30px;
-	line-height: 36px;
-	text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .search-button p {
-	line-height: 24px;
-	text-align: center;
+  line-height: 24px;
+  text-align: center;
 
-	color: #333333;
-
+  color: #333333;
 }
 
 .button {
-	font-size: 21px;
-	line-height: 26px;
-	text-align: center;
-	vertical-align: middle;
-	font-weight: 700;
-	text-transform: uppercase;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 700;
+  text-transform: uppercase;
 
-	color: #ffffff;
-	background-color: #766357;
-	border: none;
+  color: #ffffff;
+  background-color: #766357;
+  border: none;
 }
 
-.button:hover {
-	background-color: #604e43;
+.button:hover,
+.button:focus {
+  background-color: #604e43;
 }
 
 .button:active {
-	background-color: #503e33;
-	color: rgba( 255, 255, 255, 0.3);
-
+  background-color: #503e33;
+  color: rgba( 255, 255, 255, 0.3);
 }
 
 .button-submit {
-	background-color: #81b3d2;
+  background-color: #81b3d2;
 }
 
-.button-submit:hover {
-	background-color: #669ec0;
+.button-submit:hover,
+.button-submit:focus {
+  background-color: #669ec0;
 }
 
 .button-submit:active {
-	background-color: #5496bd;
-	color: rgba( 255, 255, 255, 0.3);
+  background-color: #5496bd;
+  color: rgba( 255, 255, 255, 0.3);
 }
 
 .search-form label {
-	line-height: 26px;
-	font-weight: 700;
+  line-height: 26px;
+  font-weight: 700;
 }
 
 .footer p {
-	font-size: 21px;
-	line-height: 26px;
-	font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
 }
 
-.footer ul{
-	text-align: center;
+.footer ul {
+  text-align: center;
 }
 
 .social-button {
-	background-color: #81b3d2;
-	color: #ffffff;
+  background-color: #81b3d2;
+  color: #ffffff;
 }
 
-.social-button:hover {
-	background-color: #669ec0;
-	color: #ffffff;
+.social-button:hover,
+.social-button:focus {
+  background-color: #669ec0;
+  color: #ffffff;
 }
 
 .social-button:active {
-	background-color: #5496bd;
-	color: rgba( 255, 255, 255, 0.3);
+  background-color: #5496bd;
+  color: rgba( 255, 255, 255, 0.3);
 }
 
 .footer li {
-	list-style: none;
+  list-style: none;
 }
 
 .footer-copyright {
-	line-height: 26px; 
-	vertical-align: middle;
-	text-align: right;
+  line-height: 26px;
+  vertical-align: middle;
+  text-align: right;
 
-	fill: black;
+  fill: black;
 }
 
 .footer-copyright a {
-	color: #000000;
+  color: #000000;
 }
 
-.footer-copyright a:hover {
-	fill: #5496bd;
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+  fill: #5496bd;
 }
 
 .footer-copyright a:active {
-	fill: #bdbbbc;
+  fill: #bdbbbc;
 }
 
 .hotels-main,
 .footer {
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .filters {
-	background-color: #465159;
-	background-image: url("../img/filter background.png");
-	background-repeat: no-repeat;
+  background-color: #465159;
+  background-image: url("../img/filter background.png");
+  background-repeat: no-repeat;
 }
 
 .filters fieldset {
-	border: none;
+  border: none;
 }
 
 .filters legend {
-	font-size: 16px;
-	font-weight: 700;
-	color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .filters label,
 .range-input div {
-	color: #ffffff;
+  color: #ffffff;
+}
+
+.results>p {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.result-filter {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.result-filter ul {
+  list-style: none;
+}
+
+.result-filter a {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: underline dotted;
+}
+
+.active-filter {
+  color: #81b3d2;
+  text-decoration: none;
+}
+
+.result-filter a:hover {
+  color: #81b3d2;
+}
+
+.result-filter a:active {
+  color: #000000;
+  text-decoration: none;
 }
