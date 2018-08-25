@@ -190,12 +190,18 @@ a {
 	line-height: 26px; 
 	vertical-align: middle;
 	text-align: right;
+
+	fill: black;
 }
 
 .footer-copyright a {
 	color: #000000;
 }
 
-.footer-copyright img {
-	fill: #;
+.footer-copyright a:hover {
+	fill: #5496bd;
+}
+
+.footer-copyright a:active {
+	fill: #bdbbbc;
 }
