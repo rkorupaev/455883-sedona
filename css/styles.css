@@ -242,6 +242,15 @@ a {
   color: #000000;
 }
 
+.hotels-list a h3:hover,
+.hotels-list a h3:focus{
+	color: #80b3d2;	
+}
+
+.hotels-list a h3:active {
+	color: rgba( 0, 0, 0, 0.3);
+}
+
 .result-filter {
   font-size: 12px;
   line-height: 18px;
@@ -251,14 +260,14 @@ a {
   list-style: none;
 }
 
+.result-filter a:nth-child(1) {
+  color: #81b3d2;
+  text-decoration: none;
+}
+
 .result-filter a {
   color: rgba(0, 0, 0, 0.3);
   text-decoration: underline dotted;
-}
-
-.active-filter {
-  color: #81b3d2;
-  text-decoration: none;
 }
 
 .result-filter a:hover {
@@ -273,3 +282,4 @@ a {
 .hotels-list span {
 	color: #333333;
 }
+
