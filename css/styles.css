@@ -316,10 +316,13 @@ a {
   padding-top: 50px;
 }
 
-.wrapper-feature1 {
+.wrapper-feature-town {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  justify-content: center;
+  width: auto;
+  padding-left: 4.8%;
+  padding-right: 4.8%;
 }
 
 .feature-true-town {
@@ -333,7 +336,16 @@ a {
 }
 
 .sublist-item {
-	padding-top: 106px;
-	padding-bottom: 106px;
-	width: 285px;
+  padding-top: 106px;
+  padding-bottom: 106px;
+  width: 285px;
+}
+
+.welcome-block {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-diablo-bridge {
+  display: flex;
 }
