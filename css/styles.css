@@ -329,4 +329,11 @@ a {
 .sublist {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+}
+
+.sublist-item {
+	padding-top: 106px;
+	padding-bottom: 106px;
+	width: 285px;
 }
