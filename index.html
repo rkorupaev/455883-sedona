@@ -102,17 +102,23 @@
           </div>
           <button class="button brown-button search-button-brown" type="submit">ПОИСК ГОСТИНИЦЫ В седоне</button>
           <form class="search-form" method="get">
-            <label for="date-of-checkin">Дата заезда:</label>
-            <input type="date" name="date-of-checkin" id="date-of-checkin">
-            <!-иконка календаря->
-            <label for="date-of-checkout">Дата выезда:</label>
-            <input type="date" name="date-of-checkout" id="date-of-checkout">
-            <!-иконка календаря->
-            <label for="adult-amout">Взрослые:</label>
-            <input type="number" name="adult-amout" id="adult-amout">
-            <label for="children-amout">Дети:</label>
-            <input type="number" name="children-amout" id="children-amout">
-            <button class="button blue-button" type="submit">Найти</button>
+            <div class="wrapper-input-label">
+              <label for="date-of-checkin">Дата заезда:</label>
+              <input type="date" name="date-of-checkin" id="date-of-checkin">
+              <!-иконка календаря->
+            </div>
+            <div class="wrapper-input-label">
+              <label for="date-of-checkout">Дата выезда:</label>
+              <input type="date" name="date-of-checkout" id="date-of-checkout">
+              <!-иконка календаря->
+            </div>
+            <div class="wrapper-input-label">
+              <label for="adult-amout">Взрослые:</label>
+              <input type="number" name="adult-amout" id="adult-amout">
+              <label for="children-amout">Дети:</label>
+              <input type="number" name="children-amout" id="children-amout">
+            </div>
+            <button class="button blue-button search-button-blue" type="submit">Найти</button>
           </form>
         </div>
       </section>
