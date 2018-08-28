@@ -232,8 +232,7 @@ a {
   fill: #bdbbbc;
 }
 
-.hotels-main,
-.footer {
+.hotels-main {
   background-color: #ffffff;
 }
 
@@ -418,10 +417,29 @@ a {
 }
 
 .label-adult-amount {
-	padding-right: 35px;
+  padding-right: 35px;
 }
 
 .label-children-amount {
-	padding-left: 40px;
-	padding-right: 15px;
+  padding-left: 40px;
+  padding-right: 15px;
 }
+
+.map {
+  width: 100%;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.footer ul {
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+  padding: 0;
+}
+
