@@ -357,3 +357,37 @@ a {
   padding-left: 4.8%;
   padding-right: 4.8%;
 }
+
+.feature-brown-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.search-button {
+	display: flex;
+    flex-direction: column;
+}
+
+.wrapper-search-button {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 575px;
+    margin-left: 26.04%;
+    margin-right: 26.04%;
+}
+
+.wrapper-text-search-button {
+	display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin-left: 13.47%;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+.search-button-brown {
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
