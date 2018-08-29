@@ -149,6 +149,11 @@ main {
   color: #ffffff;
 }
 
+.feature-true-town p {
+  width: 290px;
+  align-self: center;
+}
+
 .feature-brown-block {
   background-color: #eeeeee;
 
@@ -348,9 +353,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: auto;
-  padding-left: 4.8%;
-  padding-right: 4.8%;
+  flex-basis: 33.333333%;
 }
 
 .feature-true-town {
