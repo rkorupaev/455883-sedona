@@ -294,6 +294,8 @@ main {
   background-color: #465159;
   background-image: url("../img/filter background.png");
   background-repeat: no-repeat;
+
+  display: flex;
 }
 
 .filters fieldset {
@@ -311,7 +313,7 @@ main {
   color: #ffffff;
 }
 
-.results>p,
+.wrapper-result-filter>p,
 .hotels-list a h3 {
   font-size: 21px;
   line-height: 26px;
@@ -331,6 +333,12 @@ main {
 .result-filter {
   font-size: 12px;
   line-height: 18px;
+
+  display: flex;
+}
+
+.result-filter ul {
+  display: flex;
 }
 
 .results ul {
@@ -495,4 +503,27 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0;
+}
+
+.infrastructure {
+  display: flex;
+  margin-left: 6%;
+  margin-right: 110px;
+  padding: 0;
+}
+
+.rent-type {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.range-input {
+  margin-right: 6%;
+  margin-left: auto;
+}
+
+.wrapper-result-filter {
+  display: flex;
+  align-items: baseline;
 }

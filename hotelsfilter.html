@@ -11,9 +11,9 @@
 
 <body>
   <header class="main-header">
-    <a сlass="nav-logo" href="index.html"><img src="img/logo-sedona.svg" alt="nav-logo" width="140" height="72"></a>
+    <a class="logo" href="index.html"><img src="img/logo-sedona.svg" alt="nav-logo" width="140" height="72"></a>
     <nav class="main-nav">
-      <ul>
+      <ul class="site-nav">
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и Видео</a></li>
         <li><a href="#">Карта Штата</a></li>
@@ -49,18 +49,21 @@
         </div>
         <input type="range" name="price-range">
         <!-span для второго ползунка>
+        <button class="button" type="button">Показать</button>
       </fieldset>
     </form>
     <section class="results">
       <h2 class="visually-hidden">Варианты жилья</h2>
-      <p>НАЙДЕНО:<span>3</span></p>
-      <div class="result-filter">
-        <p>Сортировка</p>
-        <ul>
-          <li><a class="active-filter" href="#">По цене</a></li>
-          <li><a href="#">По типу</a></li>
-          <li><a href="#">По рейтингу</a></li>
-        </ul>
+      <div class="wrapper-result-filter">
+        <p>НАЙДЕНО:<span>3</span></p>
+        <div class="result-filter">
+          <p>Сортировка</p>
+          <ul>
+            <li><a class="active-filter" href="#">По цене</a></li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="#">По рейтингу</a></li>
+          </ul>
+        </div>
       </div>
       <ul class="hotels-list">
         <li>
