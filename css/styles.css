@@ -433,6 +433,7 @@ main {
 .search-button-brown {
   padding-top: 30px;
   padding-bottom: 30px;
+  width: 100%;
 }
 
 .search-form {
