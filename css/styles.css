@@ -13,10 +13,15 @@ a {
   text-decoration: none;
 }
 
+main {
+  width: 1200px;
+}
+
 .main-header {
-  position: absolute;
+  position: relative;
   background-color: #ffffff;
   margin-bottom: 75px;
+  width: 1200px;
 
   line-height: 26px;
   font-weight: 700;
@@ -31,25 +36,31 @@ a {
 }
 
 .logo {
-  position: relative;
-  left: 50%;
+  position: absolute;
+  left: 44.1%;
 }
 
 .site-nav {
   display: flex;
-  justify-content: space-around;
   padding: 0;
+  height: 55px;
+  align-items: center;
+  margin: 0;
 }
 
 .site-nav li:first-child {
-  margin-right: 147;
+  margin-left: 5.8%;
+  margin-right: 12.1%;
 }
 
-.container {
-  width: 1200px;
+.site-nav li:nth-child(2) {
+  margin-right: auto;
 }
 
-
+.site-nav li:last-child {
+  margin-right: 5.8%;
+  margin-left: 13.5%;
+}
 
 .main-header a {
   color: #000000;
@@ -429,7 +440,9 @@ a {
   width: 100%;
 }
 
-.footer .container {
+.footer {
+  width: 1200px;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -442,4 +455,3 @@ a {
   justify-content: space-around;
   padding: 0;
 }
-
