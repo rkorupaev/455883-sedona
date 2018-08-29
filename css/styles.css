@@ -149,7 +149,8 @@ main {
   color: #ffffff;
 }
 
-.feature-true-town p {
+.feature-true-town p,
+.feature-diablo-bridge p {
   width: 290px;
   align-self: center;
 }
@@ -385,8 +386,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 4.8%;
-  padding-right: 4.8%;
+  flex-basis: 33.3333333%;
 }
 
 .feature-brown-block {
