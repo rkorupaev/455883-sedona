@@ -5,6 +5,8 @@ body {
   font-weight: 400;
   color: #000000;
   text-transform: uppercase;
+  text-align: center;
+
 
   background-color: #f2f2f2;
 }
@@ -45,6 +47,7 @@ main {
 .logo {
   position: absolute;
   left: 44.1%;
+  z-index: 1;
 }
 
 .site-nav {
@@ -93,7 +96,8 @@ main {
   background-position: 0, 0;
   background-repeat: no-repeat;
   background-size: auto;
-  min-height: 773px;
+  min-height: 510px;
+  position: relative;
 }
 
 .welcome-block img {
@@ -529,15 +533,21 @@ main {
 }
 
 .hotels-list {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .hotels-list li {
-	display: flex;
+  display: flex;
 }
 
 .wrapper-hotel-card {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-block svg {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
