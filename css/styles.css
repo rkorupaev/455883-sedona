@@ -107,6 +107,7 @@ main {
 .features,
 .search-button {
   background-color: #ffffff;
+  position: relative;
 
   color: #000000;
 }
@@ -453,6 +454,12 @@ main {
   flex-wrap: wrap;
   padding: 50px;
   padding-top: 20px;
+
+  background-color: #fff;
+
+  position: absolute;
+  width: 475px;
+  top: 100%;
 }
 
 .wrapper-input-label {
