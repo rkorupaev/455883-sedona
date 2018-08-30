@@ -558,3 +558,9 @@ main {
   width: 100%;
   bottom: 0;
 }
+
+
+.map-container {
+  height: 475px;
+  overflow: hidden;
+}
