@@ -391,6 +391,16 @@ main {
 
 .feature-true-town {
   display: flex;
+
+  position: relative;
+  min-height: 255px;
+  overflow: hidden;
+}
+
+.feature-truetown-image img {
+  position: absolute;
+  top: -73px;
+  right: 0;
 }
 
 .sublist {
@@ -558,7 +568,6 @@ main {
   width: 100%;
   bottom: 0;
 }
-
 
 .map-container {
   height: 475px;
