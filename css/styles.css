@@ -53,9 +53,14 @@ main {
 .site-nav {
   display: flex;
   padding: 0;
-  height: 55px;
+  line-height: 55px;
   align-items: center;
   margin: 0;
+}
+
+.site-nav a {
+	display: block;
+	height: 100%;
 }
 
 .site-nav li:first-child {
