@@ -101,12 +101,15 @@ main {
   background-position: 0, 0;
   background-repeat: no-repeat;
   background-size: auto;
-  min-height: 510px;
+  min-height: 773px;
   position: relative;
+  z-index: -1;
+  margin-bottom: -208px;
+  margin-top: -55px;
 }
 
 .welcome-block img {
-  padding-top: 75px;
+  padding-top: 130px;
 }
 
 .features,
@@ -571,7 +574,7 @@ main {
 .welcome-block svg {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 208px;
 }
 
 .map-container {
