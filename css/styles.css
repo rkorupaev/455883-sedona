@@ -421,12 +421,12 @@ main {
 }
 
 .sublist-item {
-  padding-top: 106px;
-  padding-bottom: 106px;
+  padding-top: 60px;
+  padding-bottom: 82px;
   width: 285px;
 }
 
-.sublist-item-aparts h3 {
+.sublist h3 {
   padding-top: 72px;
   position: relative;
 }
@@ -437,11 +437,40 @@ main {
   position: absolute;
   width: 75px;
   height: 72px;
-  background-color: red;
 
   top: -25px;
 
   background-image: url("../img/icon-1.svg");
+  background-repeat: no-repeat;
+  background-position: 0, 0;
+}
+
+.sublist-item-food h3::before {
+  content: "";
+
+  position: absolute;
+  width: 74px;
+  height: 70px;
+
+  top: -25px;
+  left: 37%;
+
+  background-image: url("../img/icon-3.svg");
+  background-repeat: no-repeat;
+  background-position: 0, 0;
+}
+
+.sublist-item-gifts h3::before {
+  content: "";
+
+  position: absolute;
+  width: 64px;
+  height: 76px;
+
+  top: -25px;
+  left: 39%;
+
+  background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
   background-position: 0, 0;
 }
