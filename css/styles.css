@@ -263,6 +263,9 @@ main {
 .social-button {
   background-color: #81b3d2;
   color: #ffffff;
+
+  width: 46px;
+  height: 48px;
 }
 
 .social-button:hover,
