@@ -366,6 +366,7 @@ main {
   line-height: 18px;
 
   display: flex;
+  margin-right: auto;
 }
 
 .result-filter ul {
@@ -789,4 +790,21 @@ main {
   color: #000000;
 
   background: #ffffff;
+}
+
+.result-direction {
+	margin-right: 6%;
+}
+
+.result-direction svg:first-child {
+	margin-right: 10px;
+}
+
+.result-direction path:hover, 
+.result-direction path:focus {
+	fill: #000;
+}
+
+.result-direction path:active {
+	fill: #81b3d2;
 }
