@@ -325,7 +325,7 @@ main {
   background-repeat: no-repeat;
 
   display: flex;
-  min-height: 255px;
+  min-height: 192px;
   padding-top: 25px;
 }
 
