@@ -165,9 +165,13 @@ main {
   color: #ffffff;
 }
 
-.feature-true-town p,
+.feature-true-town p {
+	align-self: center;
+	width: 290px;
+}
+
 .feature-diablo-bridge p {
-  width: 290px;
+  width: 306px;
   align-self: center;
 }
 
@@ -647,3 +651,8 @@ main {
   overflow: hidden;
 }
 
+.diablo-bridge-image {
+	height: 255px;
+	width: 800px;
+
+}
