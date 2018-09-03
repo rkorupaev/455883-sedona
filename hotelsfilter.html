@@ -42,15 +42,25 @@
         <input type="checkbox" name="apart" id="apart" checked>
         <label for="apart">Апартаменты</label>
       </fieldset>
-      <fieldset class="range-input">
-        <legend>Стоимость в сутки (Р):</legend>
-        <div>
-          <span>от 0</span><span>до 3000</span>
+      <div class="filter-range">
+        <div class="filter-range-title">Стоимость в сутки (р):</div>
+        <div class="price-control">
+          <label class="min-value">от
+            <input type="text" name="min-value" value="0">
+          </label>
+          <label class="max-value">до
+            <input type="text" name="max-value" value="3000">
+          </label>
         </div>
-        <input type="range" name="price-range">
-        <!-span для второго ползунка>
-        <button class="button" type="button">Показать</button>
-      </fieldset>
+        <div class="range-controls">
+          <div class="scale">
+            <div class="bar"></div>
+          </div>
+          <div class="range-toggle range-toggle-min"></div>
+          <div class="range-toggle range-toggle-max"></div>
+        </div>
+        <button class="btn-transparent" type="submit">Показать</button>
+      </div>
     </form>
     <section class="results">
       <h2 class="visually-hidden">Варианты жилья</h2>
