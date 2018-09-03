@@ -65,9 +65,11 @@
     <section class="results">
       <h2 class="visually-hidden">Варианты жилья</h2>
       <div class="wrapper-result-filter">
-        <p>НАЙДЕНО:<span>3</span></p>
+        <div class="wrapper-text-results">
+          <p>НАЙДЕНО:<span>3</span></p>
+          <p>Сортировка:</p>
+        </div>
         <div class="result-filter">
-          <p>Сортировка</p>
           <ul>
             <li><a class="active-filter" href="#">По цене</a></li>
             <li><a href="#">По типу</a></li>
@@ -75,48 +77,66 @@
           </ul>
         </div>
         <div class="result-direction">
-          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#cacaca" d="M5.5 0L0 10h11z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#cacaca" d="M5.5 10L0 0h11"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+            <path fill="#cacaca" d="M5.5 0L0 10h11z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+            <path fill="#cacaca" d="M5.5 10L0 0h11" />
+          </svg>
         </div>
       </div>
-      <ul class="hotels-list">
-        <li>
-          <a href="#"><img src="img/hotelphoto.jpg" alt="hotelphoto" width="135" height="90"></a>
-          <div class="wrapper-hotel-card">
-            <a href="#"><h3>AMARA RESORT & SPA</h3></a>
-            <span>Гостиница</span>
-            <span>от 4000 Р.</span>
-            <a class="blue-button button" href="#">Подробнее</a>
-            <a class="button brown-button" href="#">Забронировать</a>
-          </div>
-          <div class="stars-rate">
-          </div>
-        </li>
-        <li>
-          <a href="#"><img src="img/motelphoto.jpg" alt="motelphoto" width="135" height="90"></a>
-          <div class="wrapper-hotel-card">
-            <a href="#"><h3 class="hotel-name">DESERT QUAIL INN</h3></a>
-            <span>Мотель</span>
-            <span>от 3000 Р.</span>
-            <a class="blue-button button" href="#">Подробнее</a>
-            <a class="button brown-button" href="#">Забронировать</a>
-          </div>
-          <div class="stars-rate">
-          </div>
-        </li>
-        <li>
-          <a href="#"><img src="img/apartphoto.jpg" alt="apartphoto" width="135" height="90"></a>
-          <div class="wrapper-hotel-card">
-            <a href="#"><h3 class="hotel-name">VILLAS AT POCO DIABLO</h3></a>
-            <span>Апартаменты</span>
-            <span>от 2000 Р.</span>
-            <a class="blue-button button" href="#">Подробнее</a>
-            <a class="button brown-button" href="#">Забронировать</a>
-          </div>
-          <div class="stars-rate">
-          </div>
-        </li>
-      </ul>
+      <div class="wrapper-hotel-list">
+        <ul class="hotels-list">
+          <li>
+            <a href="#" class="hotels-list-item-img"><img src="img/hotelphoto.jpg" alt="hotelphoto" width="135" height="90"></a>
+            <div class="wrapper-hotel-card">
+              <a href="#"><h3>AMARA RESORT & SPA</h3></a>
+              <div class="wrapper-card-info">
+                <span>Гостиница</span>
+                <span>от 4000 Р.</span>
+              </div>
+              <div class="wrapper-card-buttons">
+                <a class="blue-button button info-button" href="#">Подробнее</a>
+                <a class="button brown-button book-button" href="#">Забронировать</a>
+              </div>
+            </div>
+            <div class="stars-rate">
+            </div>
+          </li>
+          <li>
+            <a href="#" class="hotels-list-item-img"><img src="img/motelphoto.jpg" alt="motelphoto" width="135" height="90"></a>
+            <div class="wrapper-hotel-card">
+              <a href="#"><h3 class="hotel-name">DESERT QUAIL INN</h3></a>
+              <div class="wrapper-card-info">
+                <span>Мотель</span>
+                <span>от 3000 Р.</span>
+              </div>
+              <div class="wrapper-card-buttons">
+                <a class="blue-button button info-button" href="#">Подробнее</a>
+                <a class="button brown-button book-button" href="#">Забронировать</a>
+              </div>
+            </div>
+            <div class="stars-rate">
+            </div>
+          </li>
+          <li>
+            <a href="#" class="hotels-list-item-img"><img src="img/apartphoto.jpg" alt="apartphoto" width="135" height="90"></a>
+            <div class="wrapper-hotel-card">
+              <a href="#"><h3 class="hotel-name">VILLAS AT POCO DIABLO</h3></a>
+              <div class="wrapper-card-info">
+                <span>Апартаменты</span>
+                <span>от 2000 Р.</span>
+              </div>
+              <div class="wrapper-card-buttons">
+                <a class="blue-button button info-button" href="#">Подробнее</a>
+                <a class="button brown-button book-button" href="#">Забронировать</a>
+              </div>
+            </div>
+            <div class="stars-rate">
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer class="footer">

@@ -348,7 +348,7 @@ main {
   color: #ffffff;
 }
 
-.wrapper-result-filter>p,
+.wrapper-result-filter .wrapper-text-results,
 .hotels-list a h3 {
   font-size: 21px;
   line-height: 26px;
@@ -371,14 +371,30 @@ main {
 
   display: flex;
   margin-right: auto;
+  flex-wrap: wrap;
 }
 
 .result-filter ul {
   display: flex;
+  padding: 0;
+  width: 288px;
 }
 
 .results ul {
   list-style: none;
+}
+
+.result-filter li:first-child {
+  margin-left: 39px;
+}
+
+.result-filter li:nth-child(2) {
+  margin-left: 32px;
+  margin-right: auto;
+}
+
+.result-filter li:last-child {
+  margin-right: 11px;
 }
 
 .result-filter .active-filter {
@@ -631,21 +647,34 @@ main {
 
 .wrapper-result-filter {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  min-height: 88px;
 }
 
 .hotels-list {
   display: flex;
   flex-direction: column;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .hotels-list li {
   display: flex;
+  border-top: 1px solid #e5e5e5;
+
+  height: 151px;
 }
 
 .wrapper-hotel-card {
+  width: 364px;
+  margin-left: 30px;
+
   display: flex;
   flex-direction: column;
+}
+
+.wrapper-hotel-card h3 {
+	text-align: start;
 }
 
 .welcome-block svg {
@@ -797,18 +826,71 @@ main {
 }
 
 .result-direction {
-	margin-right: 6%;
+  margin-right: 6%;
 }
 
 .result-direction svg:first-child {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
-.result-direction path:hover, 
+.result-direction path:hover,
 .result-direction path:focus {
-	fill: #000;
+  fill: #000;
 }
 
 .result-direction path:active {
-	fill: #81b3d2;
+  fill: #81b3d2;
+}
+
+.wrapper-text-results {
+  width: 240px;
+  margin-left: 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.wrapper-text-results p:last-child {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+
+.wrapper-hotel-list {
+  margin-left: 6%;
+}
+
+.hotels-list-item-img {
+  align-self: center;
+}
+
+.wrapper-card-info {
+	display: flex;
+	width: 183px;
+	justify-content: space-between;
+}
+
+.wrapper-card-buttons {
+	display: flex;
+	width: 260px;
+}
+
+.info-button {
+	width: 110px;
+	height: 27px;
+
+	margin-right: 7px;
+}
+
+.book-button {
+	width: 142px;
+	height: 27px;
+}
+
+.info-button,
+.book-button {
+	font-size: 14px;
+	line-height: 21px;
+	vertical-align: middle;
 }
