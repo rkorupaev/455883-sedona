@@ -258,6 +258,8 @@ main {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  width: 240px;
+  margin-left: 6%;
 }
 
 .footer ul {
@@ -298,6 +300,8 @@ main {
   line-height: 26px;
   vertical-align: middle;
   text-align: right;
+  margin-right: 6%;
+  width: 240px;
 
   fill: black;
 }
