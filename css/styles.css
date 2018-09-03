@@ -598,6 +598,10 @@ main {
 
 .map {
   width: 100%;
+  position: relative;
+  z-index: -1;
+  min-height: 475px;
+  height: 100%
 }
 
 .footer {
@@ -607,7 +611,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .footer ul {
@@ -674,7 +678,7 @@ main {
 }
 
 .wrapper-hotel-card h3 {
-	text-align: start;
+  text-align: start;
 }
 
 .welcome-block svg {
@@ -684,8 +688,7 @@ main {
 }
 
 .map-container {
-  height: 475px;
-  overflow: hidden;
+  position: absolute;
 }
 
 .diablo-bridge-image {
@@ -867,31 +870,31 @@ main {
 }
 
 .wrapper-card-info {
-	display: flex;
-	width: 183px;
-	justify-content: space-between;
+  display: flex;
+  width: 183px;
+  justify-content: space-between;
 }
 
 .wrapper-card-buttons {
-	display: flex;
-	width: 260px;
+  display: flex;
+  width: 260px;
 }
 
 .info-button {
-	width: 110px;
-	height: 27px;
+  width: 110px;
+  height: 27px;
 
-	margin-right: 7px;
+  margin-right: 7px;
 }
 
 .book-button {
-	width: 142px;
-	height: 27px;
+  width: 142px;
+  height: 27px;
 }
 
 .info-button,
 .book-button {
-	font-size: 14px;
-	line-height: 21px;
-	vertical-align: middle;
+  font-size: 14px;
+  line-height: 21px;
+  vertical-align: middle;
 }
