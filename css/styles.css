@@ -325,6 +325,8 @@ main {
   background-repeat: no-repeat;
 
   display: flex;
+  min-height: 255px;
+  padding-top: 25px;
 }
 
 .filters fieldset {
@@ -614,9 +616,10 @@ main {
   display: flex;
   padding: 0;
   margin: 0;
+  margin-right: auto;
 }
 
-.range-input {
+.filter-range {
   margin-right: 6%;
   margin-left: auto;
 }
@@ -733,10 +736,11 @@ main {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.range-controls .scale {
+.range-controls .bar {
+  width: 80%;
   height: 2px;
 
-  background: rgba(255, 255, 255, 0.3);
+  background: #ffffff;
 }
 
 .range-toggle {
