@@ -266,6 +266,13 @@ main {
 
   width: 46px;
   height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-button:active path {
+  fill: #88b6d1;
 }
 
 .social-button:hover,
@@ -568,6 +575,7 @@ main {
 
 .footer {
   width: 1200px;
+  min-height: 120px;
 
   display: flex;
   justify-content: space-around;
@@ -578,8 +586,10 @@ main {
 .footer ul {
   display: flex;
   width: 150px;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .features-list {
@@ -636,3 +646,4 @@ main {
   height: 475px;
   overflow: hidden;
 }
+
