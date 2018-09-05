@@ -684,6 +684,7 @@ main {
 .wrapper-hotel-card {
   width: 364px;
   margin-left: 30px;
+  margin-right: auto;
 
   display: flex;
   flex-direction: column;
@@ -909,4 +910,29 @@ main {
   font-size: 14px;
   line-height: 21px;
   vertical-align: middle;
+}
+
+
+.stars-rate {
+  width: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 6%;
+}
+
+.stars {
+  display: flex;
+  justify-content: flex-end;
+
+  min-height: 17px;
+  margin-right: -6px;
+}
+
+.stars-rate span {
+  background-color: #f2f2f2;
+}
+
+.stars svg {
+	margin-right: 6px;
 }
