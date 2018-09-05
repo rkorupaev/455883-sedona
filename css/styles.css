@@ -692,6 +692,9 @@ main {
 
 .wrapper-hotel-card h3 {
   text-align: start;
+  padding: 0;
+  margin: 0;
+  margin-top: 25px;
 }
 
 .welcome-block svg {
@@ -886,11 +889,15 @@ main {
   display: flex;
   width: 183px;
   justify-content: space-between;
+
+  margin-top: 10px;
+  margin-bottom: auto;
 }
 
 .wrapper-card-buttons {
   display: flex;
   width: 260px;
+  margin-bottom: 30px;
 }
 
 .info-button {
@@ -934,5 +941,5 @@ main {
 }
 
 .stars svg {
-	margin-right: 6px;
+  margin-right: 6px;
 }
