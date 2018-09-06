@@ -147,6 +147,7 @@ main {
 
 
 
+
 /*.features h2+p {
   line-height: 26px;
   text-align: center;
@@ -331,6 +332,10 @@ main {
 
 .footer-copyright a {
   color: #000000;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .footer-copyright a:hover,
