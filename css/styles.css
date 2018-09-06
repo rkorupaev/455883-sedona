@@ -150,6 +150,8 @@ main {
 
 
 
+
+
 /*.features h2+p {
   line-height: 26px;
   text-align: center;
@@ -606,6 +608,7 @@ main {
   width: 450px;
   margin-top: 30px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .search-button-blue {
@@ -617,6 +620,7 @@ main {
 
 .wrapper-input-label input {
   width: 75%;
+  height: 32px;
 }
 
 .label-adult-amount {
@@ -965,5 +969,43 @@ main {
 }
 
 .active-arrow path {
-	fill: #81b3d2;
+  fill: #81b3d2;
+}
+
+.minus,
+.plus {
+  width: 38px;
+  height: 38px;
+  padding: 0 13px;
+}
+
+input[name="adult-amout"],
+input[name="children-amout"] {
+  text-align: center;
+}
+
+.calendar-icon {
+	width: 21px;
+	height: 22px;
+
+	font-size: 0;
+
+	background-image: url(../img/calendar.svg);
+	border:0;
+
+	position: absolute;
+    right: 10px;
+
+    cursor: pointer;
+}
+
+.check-in-date,
+.check-out-date {
+	position: relative;
+}
+
+input[name="date-of-checkin"],
+input[name="date-of-checkout"] {
+	padding-right: 40px;
+	width: 66.18%;
 }
