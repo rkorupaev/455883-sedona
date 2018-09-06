@@ -144,11 +144,14 @@ main {
   text-align: center;
 }
 
-.features h2+p {
+
+
+
+/*.features h2+p {
   line-height: 26px;
   text-align: center;
   color: #333333;
-}
+}*/
 
 .features h3 {
   font-size: 21px;
@@ -202,12 +205,21 @@ main {
   margin: 0;
   width: 130px;
   align-self: center;
+
+  margin-bottom: 25px;
+  margin-top: 45px;
 }
 
 .feature-brown-block p {
   width: 210px;
   align-self: center;
   margin: 0;
+
+  margin-bottom: 55px;
+}
+
+.feature-brown-block span {
+  margin-bottom: auto;
 }
 
 .search-button b {
