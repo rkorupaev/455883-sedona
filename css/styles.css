@@ -680,8 +680,8 @@ main {
 
 .wrapper-result-filter {
   display: flex;
-  align-items: center;
-  min-height: 88px;
+  align-items: baseline;
+  min-height: 86px;
 }
 
 .hotels-list {
