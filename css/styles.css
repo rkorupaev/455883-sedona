@@ -963,3 +963,7 @@ main {
 .stars svg {
   margin-right: 6px;
 }
+
+.active-arrow path {
+	fill: #81b3d2;
+}
