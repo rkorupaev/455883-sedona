@@ -148,6 +148,8 @@ main {
 
 
 
+
+
 /*.features h2+p {
   line-height: 26px;
   text-align: center;
@@ -427,12 +429,13 @@ main {
 
 .result-filter .active-filter {
   color: #81b3d2;
-  text-decoration: none;
+  border-bottom: none;
 }
 
 .result-filter a {
   color: rgba(0, 0, 0, 0.3);
-  text-decoration: underline dotted;
+  text-decoration: none;
+  border-bottom: 1px dotted #81b3d2;
 }
 
 .result-filter a:hover {
@@ -441,7 +444,7 @@ main {
 
 .result-filter a:active {
   color: #000000;
-  text-decoration: none;
+  border-bottom: none;
 }
 
 .hotels-list span {
