@@ -156,6 +156,9 @@ main {
 
 
 
+
+
+
 /*.features h2+p {
   line-height: 26px;
   text-align: center;
@@ -631,7 +634,7 @@ main {
 }
 
 .label-adult-amount {
-  padding-right: 35px;
+  padding-right: 40px;
 }
 
 .label-children-amount {
@@ -981,6 +984,8 @@ main {
 
 .minus,
 .plus {
+  position: relative;
+
   min-width: 38px;
   height: 38px;
   background-color: #f2f2f2;
@@ -989,6 +994,52 @@ main {
 
   cursor: pointer;
 }
+
+.minus::after {
+  position: absolute;
+
+  content: "";
+
+  height: 3px;
+  width: 13px;
+
+  background-color: #a9a9a9;
+  left: 12px;
+}
+
+.plus::after,
+.plus::before {
+  position: absolute;
+
+  content: "";
+
+  height: 3px;
+  width: 12px;
+
+  background-color: #a9a9a9;
+  left: 13px;
+  top: 18px;
+}
+
+.plus::after {
+  transform: rotate(90deg);
+}
+
+.minus:hover::after,
+.plus:hover::after,
+.plus:hover::before,
+.minus:focus::after,
+.plus:focus::after,
+.plus:focus::before {
+  background-color: #000;
+}
+
+.minus:active::after,
+.plus:active::after,
+.plus:active::before {
+  background-color: #81b3d2;
+}
+
 
 input[name="adult-amout"],
 input[name="children-amout"] {
@@ -1000,8 +1051,8 @@ input[name="children-amout"] {
   height: 22px;
 
   font-size: 0;
-/*    background-image: url(../img/calendar.svg);*/
-  background-color: #cacaca;
+
+  background-color: #f2f2f2;
   border: 0;
 
   position: absolute;
@@ -1010,8 +1061,21 @@ input[name="children-amout"] {
   cursor: pointer;
 }
 
-.calendar-icon path {
+.calendar-icon svg {
   fill: #cdcdcd;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.calendar-icon svg:hover,
+.calendar-icon a:focus {
+  fill: #000;
+}
+
+.calendar-icon svg:active {
+  fill: #81b3d2;
 }
 
 .check-in-date,
