@@ -1136,3 +1136,7 @@ input[name="date-of-checkout"] {
   height: 23px;
   left: 0;
 }
+
+.search-form-display-js {
+	display: none;
+}
