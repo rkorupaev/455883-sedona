@@ -159,6 +159,12 @@ main {
 
 
 
+
+
+
+
+
+
 /*.features h2+p {
   line-height: 26px;
   text-align: center;
@@ -678,13 +684,28 @@ main {
 
 .infrastructure {
   display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
   margin-left: 6%;
   margin-right: 110px;
   padding: 0;
 }
 
+.filters h3 {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+
+  color: #ffffff;
+}
+
 .rent-type {
   display: flex;
+  flex-direction: column;
+  align-items: baseline;
   padding: 0;
   margin: 0;
   margin-right: auto;
@@ -1070,11 +1091,12 @@ input[name="children-amout"] {
 }
 
 .calendar-icon svg:hover,
-.calendar-icon a:focus {
+.calendar-icon:focus svg {
   fill: #000;
 }
 
-.calendar-icon svg:active {
+.calendar-icon svg:active,
+.calendar-icon:active svg {
   fill: #81b3d2;
 }
 
@@ -1087,4 +1109,30 @@ input[name="date-of-checkin"],
 input[name="date-of-checkout"] {
   padding-right: 40px;
   width: 66.18%;
+}
+
+.label-checkbox {
+  position: relative;
+
+  line-height: 23px;
+
+  padding-left: 40px;
+}
+
+.label-checkbox:first-of-type {
+  margin-bottom: 23px;
+  margin-top: 25px;
+}
+
+.label-checkbox:last-child {
+  margin-top: auto;
+  margin-bottom: 31px;
+}
+
+.checkbox-icon {
+  position: absolute;
+
+  width: 23px;
+  height: 23px;
+  left: 0;
 }
