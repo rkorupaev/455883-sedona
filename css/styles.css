@@ -111,18 +111,16 @@ main {
 .welcome-block {
   background-color: #848288;
   background-image: url("../img/background-photo.jpg");
-  background-position: 0, 0;
+  background-position: center -58px;
   background-repeat: no-repeat;
-  background-size: auto;
-  min-height: 773px;
+  background-size: cover;
+  min-height: 510px;
   position: relative;
   z-index: -1;
-  margin-bottom: -208px;
-  margin-top: -55px;
 }
 
 .welcome-block img {
-  padding-top: 130px;
+  padding-top: 75px;
 }
 
 .features,
@@ -756,7 +754,7 @@ main {
 .welcome-block svg {
   position: absolute;
   width: 100%;
-  bottom: 208px;
+  bottom: 0px;
 }
 
 .map-container {
