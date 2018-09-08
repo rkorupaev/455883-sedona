@@ -165,6 +165,7 @@ main {
 
 
 
+
 /*.features h2+p {
   line-height: 26px;
   text-align: center;
@@ -1107,8 +1108,9 @@ input[name="children-amout"] {
 
 input[name="date-of-checkin"],
 input[name="date-of-checkout"] {
+  padding-left: 10px;
   padding-right: 40px;
-  width: 66.18%;
+  width: 63.958%;
 }
 
 .label-checkbox {
@@ -1138,5 +1140,10 @@ input[name="date-of-checkout"] {
 }
 
 .search-form-display-js {
-	display: none;
+  display: none;
+}
+
+
+.error-class {
+	background-color: red;
 }
