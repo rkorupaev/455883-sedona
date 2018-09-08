@@ -164,6 +164,7 @@ main {
 
 
 
+
 /*.features h2+p {
   line-height: 26px;
   text-align: center;
@@ -578,6 +579,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 3;
 }
 
 .wrapper-search-button {
@@ -650,7 +652,6 @@ main {
 .map {
   width: 100%;
   position: relative;
-  z-index: -1;
   min-height: 475px;
   height: 100%
 }
@@ -759,6 +760,11 @@ main {
 
 .map-container {
   position: absolute;
+  z-index: -1;
+}
+
+.interactive-map {
+  width: 100%;
 }
 
 .diablo-bridge-image {
@@ -1143,5 +1149,13 @@ input[name="date-of-checkout"] {
 
 
 .error-class {
-	background-color: red;
+  background-color: red;
+}
+
+.interactive-map iframe {
+  position: absolute;
+  width: 100%;
+  border: 0;
+  min-height: 475px;
+  left: 0;
 }
