@@ -151,42 +151,10 @@ main {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.features h2+p {
-  line-height: 26px;
-  text-align: center;
-  color: #333333;
-}*/
-
 .features h3 {
   font-size: 21px;
   text-align: center;
+  align-self: center;
 }
 
 .features span,
@@ -201,6 +169,10 @@ main {
   width: 1200px;
 
   color: #ffffff;
+}
+
+.feature-true-town h3 {
+	width: 130px;
 }
 
 .feature-true-town p,
@@ -666,6 +638,10 @@ main {
           justify-content: center;
   -ms-flex-preferred-size: 33.3333333%;
       flex-basis: 33.3333333%;
+}
+
+.wrapper-feature-bridge h3 {
+	width: 151px;
 }
 
 .search-button {
