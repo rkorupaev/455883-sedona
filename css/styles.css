@@ -1342,6 +1342,10 @@ input[type="checkbox"] {
 	display: block;
 }
 
+.checkbox:disabled + span path {
+	fill: #6a6a6a;
+}
+
 .search-form-display-js {
   display: none;
 }
