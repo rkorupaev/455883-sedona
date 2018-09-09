@@ -25,3 +25,5 @@ minusButton.addEventListener("click", function(evt) {
 function deleteClass() {
 	minusButton.classList.remove("error-class");
 }
+
+

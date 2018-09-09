@@ -167,6 +167,8 @@ main {
 
 
 
+
+
 /*.features h2+p {
   line-height: 26px;
   text-align: center;
@@ -1125,12 +1127,18 @@ input[name="date-of-checkout"] {
   width: 63.958%;
 }
 
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
 .label-checkbox {
   position: relative;
 
   line-height: 23px;
 
   padding-left: 40px;
+
+  cursor: pointer;
 }
 
 .label-checkbox:first-of-type {
@@ -1149,6 +1157,18 @@ input[name="date-of-checkout"] {
   width: 23px;
   height: 23px;
   left: 0;
+}
+
+.checkbox + span svg:last-child {
+	display: none;
+}
+
+.checkbox:checked + span svg:first-child {
+	display: none;
+}
+
+.checkbox:checked + span svg:last-child {
+	display: block;
 }
 
 .search-form-display-js {
