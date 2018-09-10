@@ -13,20 +13,15 @@ button.addEventListener("click", function(evt) {
 
 });
 
-
-var massive = document.getElementById("adult-amout");
-var value = massive.value;
+var value = document.getElementById("adult-amout").value;
 var minusButton = document.querySelector(".minus");
 
 minusButton.addEventListener("click", function(evt) {
   evt.preventDefault();
 
   if (value<= 0) {
-  	value = 0;
 
   	minusButton.classList.add ("error-class");
-  	// setTimeout(deleteClass() , 10000);
-
 
   } else {
   	
@@ -36,3 +31,22 @@ minusButton.addEventListener("click", function(evt) {
 }
 
 });
+
+var plusButton = document.querySelector(".plus");
+
+plusButton.addEventListener("click", function(evt) {
+  evt.preventDefault();
+
+  if (value === 10) {
+
+    plusButton.classList.add ("error-class");
+
+  } else {
+    
+
+  value++;
+  document.getElementById("adult-amout").value = value;
+}
+
+});
+
