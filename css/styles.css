@@ -777,7 +777,7 @@ main {
 .footer {
   position: relative;
   width: 1200px;
-  min-height: 120px;
+  height: 120px;
 
   display: -webkit-box;
 
