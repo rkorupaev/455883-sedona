@@ -149,7 +149,9 @@ main {
 .features h3 {
   font-size: 21px;
   text-align: center;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .features span,
@@ -1373,7 +1375,8 @@ input[type="checkbox"] {
 
 
 .error-class {
-  animation: error-class-color 1s;
+  -webkit-animation: error-class-color 1s;
+          animation: error-class-color 1s;
 }
 
 .interactive-map {
