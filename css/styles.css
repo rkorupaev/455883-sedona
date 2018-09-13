@@ -120,7 +120,7 @@ main {
   background-position: center -58px;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 510px;
+  height: 510px;
   position: relative;
   z-index: -1;
 }
@@ -751,7 +751,7 @@ main {
 }
 
 .wrapper-input-label input {
-  width: 75%;
+  width: 47px;
   height: 36px;
 
   border: 0;
