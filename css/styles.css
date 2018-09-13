@@ -173,6 +173,7 @@ main {
 
 .feature-true-town h3 {
   width: 130px;
+  margin-top: 48px;
 }
 
 .feature-true-town p,
@@ -187,6 +188,7 @@ main {
   -ms-grid-row-align: center;
   align-self: center;
   width: 290px;
+  margin-top: 23px;
 }
 
 .feature-diablo-bridge p {
@@ -194,6 +196,7 @@ main {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+  margin-top: 23px;
 }
 
 .feature-brown-block {
@@ -223,17 +226,17 @@ main {
   align-self: center;
 
   margin-bottom: 25px;
-  margin-top: 45px;
+  margin-top: 49px;
 }
 
 .feature-brown-block p {
-  width: 210px;
+  width: 260px;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
   margin: 0;
 
-  margin-bottom: 55px;
+  margin-bottom: 58px;
 }
 
 .feature-brown-block span {
@@ -251,6 +254,8 @@ main {
   text-align: center;
 
   color: #333333;
+  margin-top: 21px;
+  width: 435px;
 }
 
 .button {
@@ -531,9 +536,6 @@ main {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   -ms-flex-preferred-size: 33.333333%;
   flex-basis: 33.333333%;
 }
@@ -570,13 +572,18 @@ main {
 
 .sublist-item {
   padding-top: 60px;
-  padding-bottom: 82px;
+  padding-bottom: 70px;
   width: 285px;
 }
 
 .sublist h3 {
   padding-top: 72px;
   position: relative;
+  margin-top: 28px;
+}
+
+.sublist-item p {
+  margin-top: 26px;
 }
 
 .sublist-item-aparts h3::before {
@@ -646,15 +653,13 @@ main {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   -ms-flex-preferred-size: 33.3333333%;
   flex-basis: 33.3333333%;
 }
 
 .wrapper-feature-bridge h3 {
   width: 151px;
+  margin-top: 48px;
 }
 
 .search-button {
@@ -682,7 +687,7 @@ main {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 575px;
+  width: 572px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -698,7 +703,7 @@ main {
   flex-direction: column;
   width: 420px;
   padding-top: 55px;
-  padding-bottom: 50px;
+  padding-bottom: 34px;
 }
 
 .search-button-brown {
@@ -1192,7 +1197,7 @@ main {
   min-height: 17px;
   margin-right: -3px;
   margin-top: 28px;
-  margin-bottom: auto;  
+  margin-bottom: auto;
 }
 
 .stars-rate span {
