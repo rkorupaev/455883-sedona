@@ -302,7 +302,8 @@ main {
   line-height: 26px;
   font-weight: 700;
   width: 240px;
-  margin-left: 6%;
+  margin-top: 9px;
+  margin-left: 81px;
 }
 
 .footer ul {
@@ -349,8 +350,9 @@ main {
   line-height: 26px;
   vertical-align: middle;
   text-align: right;
-  margin-right: 6%;
+  margin-right: 6.2%;
   width: 240px;
+  margin-top: -10px;
 
   fill: black;
 }
@@ -395,7 +397,7 @@ main {
 
   display: flex;
   min-height: 192px;
-  padding-top: 25px;
+  padding-top: 28px;
 }
 
 .filters fieldset {
@@ -414,11 +416,12 @@ main {
 }
 
 .wrapper-result-filter .wrapper-text-results,
-.hotels-list a h3 {
+.hotels-list h3 {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
+  margin-top: 6px;
 }
 
 .hotels-list a h3:hover,
@@ -795,6 +798,8 @@ main {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 auto;
+  margin-left: 203px;
+  margin-top: -10px;
 }
 
 .features-list {
@@ -822,7 +827,7 @@ main {
   align-items: baseline;
 
   margin-left: 6%;
-  margin-right: 110px;
+  margin-right: 120px;
   padding: 0;
 }
 
@@ -877,6 +882,7 @@ main {
   flex-direction: column;
   padding: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .hotels-list li {
@@ -908,7 +914,7 @@ main {
   text-align: start;
   padding: 0;
   margin: 0;
-  margin-top: 25px;
+  margin-top: 22px;
 }
 
 .welcome-block svg {
@@ -932,7 +938,7 @@ main {
 }
 
 .filter-range {
-  width: 328px;
+  width: 318px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -942,6 +948,7 @@ main {
   font-size: 16px;
   line-height: 21px;
   margin-bottom: 9px;
+  text-align: left;
 }
 
 .price-control {
@@ -968,7 +975,7 @@ main {
 .price-control .min-value,
 .price-control .max-value {
   width: 90px;
-  padding-left: 65px;
+  padding-left: 46px;
 }
 
 .price-control input {
@@ -1067,7 +1074,7 @@ main {
 }
 
 .result-direction {
-  margin-right: 6%;
+  margin-right: 5%;
 }
 
 .result-direction svg {
@@ -1128,7 +1135,7 @@ main {
   -ms-flex-pack: justify;
   justify-content: space-between;
 
-  margin-top: 10px;
+  margin-top: 8px;
   margin-bottom: auto;
 }
 
@@ -1137,7 +1144,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   width: 260px;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
 }
 
 .info-button {
@@ -1183,11 +1190,14 @@ main {
   justify-content: flex-end;
 
   min-height: 17px;
-  margin-right: -6px;
+  margin-right: -3px;
+  margin-top: 28px;
+  margin-bottom: auto;  
 }
 
 .stars-rate span {
   background-color: #f2f2f2;
+  margin-bottom: 36px;
 }
 
 .stars svg {
