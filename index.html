@@ -6,7 +6,7 @@
   <title>HTML Academy: Седона</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.min.css">
 </head>
 
 <body>
@@ -26,9 +26,11 @@
       <h1 class="visually-hidden">Добро пожаловать в великолепную Седону</h1>
       <div class="welcome-block">
         <img src="img/intro-welcome.svg" alt="Welcome to the Gorgeous SEDONA" width="459" height="353">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 57">
-          <path d="M0 57V0l250 24V0l350 57L950 0v24l250-24v57H0z" fill="#fff" />
-        </svg>
+        <div class="mask-container">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 57" width="1200" height="59">
+            <path d="M0 57V0l250 24V0l350 57L950 0v24l250-24v57H0z" fill="#fff" />
+          </svg>
+        </div>
       </div>
       <section class="features">
         <div class="wrapper-h2">
