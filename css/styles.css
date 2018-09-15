@@ -95,22 +95,32 @@ main {
 }
 
 .site-nav a {
-  display: block;
   height: 100%;
+}
+
+.site-nav li {
+  width: 100px;
 }
 
 .site-nav li:first-child {
   margin-left: 6%;
-  margin-right: 12.2%;
+  margin-right: 11.6666%;
+  text-align: left;
 }
 
 .site-nav li:nth-child(2) {
   margin-right: auto;
+  text-align: left;
+}
+
+.site-nav li:nth-child(3) {
+  text-align: right;
 }
 
 .site-nav li:last-child {
   margin-right: 6%;
-  margin-left: 13.63%;
+  margin-left: 11.9166%;
+  text-align: right;
 }
 
 .main-header a {
@@ -318,9 +328,8 @@ main {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  width: 240px;
+  width: 400px;
   margin-top: 9px;
-  margin-left: 81px;
 }
 
 .footer ul,
@@ -585,10 +594,15 @@ main {
   justify-content: space-around;
 }
 
+.sublist li {
+  width: 400px;
+}
+
 .sublist-item {
   padding-top: 60px;
   padding-bottom: 70px;
   width: 285px;
+  margin: auto;
 }
 
 .sublist h3 {
