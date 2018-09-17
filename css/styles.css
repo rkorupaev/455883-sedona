@@ -891,6 +891,7 @@ a {
 }
 
 .filters h3 {
+  text-align: left;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -1448,7 +1449,6 @@ input[type="checkbox"] {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-left: 6%;
   text-align: left;
 }
 
@@ -1462,4 +1462,8 @@ input[type="checkbox"] {
 
 .rent-type {
   margin-left: 120px;
+}
+
+.infrastructure {
+  margin-left: 6%;
 }
