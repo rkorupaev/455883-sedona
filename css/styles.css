@@ -257,6 +257,10 @@ a {
   margin-bottom: 58px;
 }
 
+.feature-brown-block:last-child p {
+  width: 250px;
+}
+
 .feature-brown-block span {
   margin-bottom: auto;
 }
