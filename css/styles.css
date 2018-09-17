@@ -24,10 +24,6 @@ a {
   text-decoration: none;
 }
 
-main {
-  width: 1200px;
-}
-
 .container-page {
   margin-right: auto;
   margin-left: auto;
@@ -37,6 +33,7 @@ main {
   max-width: 1200px;
   height: 2770px;
   position: relative;
+  width: 1200px;
 }
 
 .container-inner-page {
@@ -393,8 +390,14 @@ main {
   width: 400px;
   margin-top: -18px;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 
   fill: black;
 }
@@ -776,6 +779,8 @@ main {
 }
 
 .amount-buttons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 115px;
 }
@@ -1082,6 +1087,9 @@ main {
 
 .range-toggle:hover {
   background: #1c4f80;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .btn-transparent {
