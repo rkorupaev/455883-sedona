@@ -384,7 +384,6 @@ main {
 .footer-inner-page li:last-child {
   margin-left: 7px;
   margin-right: auto;
-
 }
 
 .footer-copyright {
@@ -886,23 +885,6 @@ main {
   margin: 0;
 }
 
-.infrastructure {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
-
-  margin-left: 6%;
-  margin-right: 120px;
-  padding: 0;
-}
-
 .filters h3 {
   font-size: 16px;
   line-height: 21px;
@@ -911,22 +893,6 @@ main {
   margin: 0;
 
   color: #ffffff;
-}
-
-.rent-type {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
-  padding: 0;
-  margin: 0;
-  margin-right: auto;
 }
 
 .filter-range {
@@ -1468,4 +1434,24 @@ input[type="checkbox"] {
   width: 100%;
   height: 59px;
   left: 0;
+}
+
+.filter-options-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 6%;
+  text-align: left;
+}
+
+.filter-options-list li {
+  margin-top: 23px;
+}
+
+.filter-options-list li:first-child {
+  margin-top: 25px;
+}
+
+.rent-type {
+  margin-left: 120px;
 }
