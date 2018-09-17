@@ -1370,6 +1370,13 @@ input[name="date-of-checkout"] {
   width: 64.84%;
 }
 
+.search-form input {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 input[type="checkbox"] {
   cursor: pointer;
 }
