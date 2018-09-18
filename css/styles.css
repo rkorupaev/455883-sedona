@@ -322,6 +322,7 @@ a {
 .search-form label {
   line-height: 26px;
   font-weight: 700;
+  margin-right: 15px;
 }
 
 .footer p,
@@ -331,6 +332,10 @@ a {
   font-weight: 700;
   width: 400px;
   margin-top: 3px;
+}
+
+.amount-buttons-block label {
+  margin: 0;
 }
 
 .footer ul,
@@ -408,7 +413,6 @@ a {
 
 .footer-copyright a {
   color: #000000;
-  width: 211px;
 
   display: -webkit-box;
 
@@ -421,6 +425,10 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.footer-copyright svg {
+  margin-left: 7px;
 }
 
 .footer-copyright a:hover,
@@ -1335,6 +1343,7 @@ input[name="children-amout"] {
 
   position: absolute;
   right: 10px;
+  top: 7px;
 
   cursor: pointer;
 }
