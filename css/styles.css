@@ -1101,7 +1101,6 @@ a {
 }
 
 .range-toggle:hover {
-  background: #1c4f80;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -1493,4 +1492,8 @@ input[type="checkbox"] {
 
 .infrastructure {
   margin-left: 6%;
+}
+
+.site-nav .active-nav {
+  color: #766357;
 }
