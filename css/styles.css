@@ -812,6 +812,10 @@ a {
   width: 469px;
   top: 100%;
   left: 26.3%;
+
+  animation-name: show-form;
+  animation-duration: 0.5s;
+  transform-origin: center top;
 }
 
 .amount-buttons-container {
@@ -1493,4 +1497,13 @@ input[type="checkbox"] {
 
 .site-nav .active-nav {
   color: #766357;
+}
+
+@keyframes show-form {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }
