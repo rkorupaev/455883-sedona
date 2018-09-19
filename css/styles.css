@@ -646,18 +646,28 @@ a {
   margin-top: 26px;
 }
 
+.sublist-item-aparts p {
+  width: 300px;
+  padding-left: 50px;
+}
+
 .sublist-item-aparts h3::before {
   content: "";
 
   position: absolute;
   width: 75px;
   height: 72px;
-  left: 105px;
+  left: 162px;
   top: -28px;
 
   background-image: url("../img/icon-1.svg");
   background-repeat: no-repeat;
   background-position: 0, 0;
+}
+
+.sublist-item-food p {
+  width: 290px;
+  padding-left: 55px;
 }
 
 .sublist-item-food h3::before {
@@ -668,11 +678,16 @@ a {
   height: 70px;
 
   top: -27px;
-  left: 37%;
+  left: 41%;
 
   background-image: url("../img/icon-3.svg");
   background-repeat: no-repeat;
   background-position: 0, 0;
+}
+
+.sublist-item-gifts p {
+    width: 370px;
+    margin-left: 15px;
 }
 
 .sublist-item-gifts h3::before {
@@ -683,7 +698,7 @@ a {
   height: 76px;
 
   top: -31px;
-  left: 39%;
+  left: 42%;
 
   background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
