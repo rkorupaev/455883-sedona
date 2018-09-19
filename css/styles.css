@@ -335,6 +335,10 @@ a {
   margin-top: 3px;
 }
 
+.footer-inner-page p {
+  margin-top: 6px;
+}
+
 .amount-buttons-block label {
   margin: 0;
 }
@@ -379,17 +383,16 @@ a {
 .footer li,
 .footer-inner-page li {
   list-style: none;
+  margin-right: 5px;
 }
 
 .footer li:first-child,
 .footer-inner-page li:first-child {
   margin-left: 124px;
-  margin-right: 5px;
 }
 
 .footer li:last-child,
 .footer-inner-page li:last-child {
-  margin-left: 5px;
   margin-right: auto;
 }
 
@@ -410,6 +413,10 @@ a {
   justify-content: center;
 
   fill: black;
+}
+
+.footer-inner-page .footer-copyright {
+  margin-top: -10px;
 }
 
 .footer-copyright a {
@@ -686,8 +693,8 @@ a {
 }
 
 .sublist-item-gifts p {
-    width: 370px;
-    margin-left: 15px;
+  width: 370px;
+  margin-left: 15px;
 }
 
 .sublist-item-gifts h3::before {
@@ -906,6 +913,10 @@ a {
   margin-top: -3px;
 }
 
+.footer-inner-page ul {
+  margin-top: 5px;
+}
+
 .features-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -963,7 +974,7 @@ a {
   display: flex;
   border-top: 1px solid #e5e5e5;
 
-  height: 151px;
+  min-height: 151px;
 }
 
 .wrapper-hotel-card {
@@ -1318,65 +1329,6 @@ a {
 .plus:active svg {
   fill: #81b3d2;
 }
-
-
-
-
-/*.minus::after {
-  position: absolute;
-
-  content: "";
-
-  height: 3px;
-  width: 12px;
-
-  background-color: #a9a9a9;
-  left: 12px;
-  top: 50%;
-}
-
-.plus::after,
-.plus::before {
-  position: absolute;
-
-  content: "";
-
-  height: 3px;
-  width: 12px;
-
-  background-color: #a9a9a9;
-  left: 13px;
-  top: 18px;
-}
-
-.plus::after {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-  left: 13px;
-}
-*/
-
-
-/*.plus::before {
-  width: 12px;
-}*/
-
-
-/*.minus:hover::after,
-.plus:hover::after,
-.plus:hover::before,
-.minus:focus::after,
-.plus:focus::after,
-.plus:focus::before {
-  background-color: #000;
-}
-
-.minus:active::after,
-.plus:active::after,
-.plus:active::before {
-  background-color: #81b3d2;
-}*/
 
 input[name="adult-amout"],
 input[name="children-amout"] {
